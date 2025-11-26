@@ -1,65 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portifolio</title>
+    <title>Meu Portfólio</title>
     <link rel="stylesheet" href="/Assets/css/style.css">
 </head>
 <body>
-    
-<navbar>
-    <div class="Container">
-       <h3>Luiz miguel</h3>
-       <a href="">Contato</a>
-       <a href="">Projetos</a>
-       <a href="">Sobre mim</a>
-    </div>
-  
-</navbar>
-    <main>
 
-        <div class="Section-Home">
-            <h1>Oi, Eu sou Luiz Miguel</h1>
-            <p>Estudante de desnvolvimento de sistemas no Senai suiço-brasileiro</p>
+    <header>
+        <nav class="nav">
+            <h1 class="logo">Luiz Miguel</h1>
+            <ul class="menu">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Desenvolvedor Web</h2>
+            <p>Criando projetos modernos e responsivos, unindo design e funcionalidade para entregar experiências digitais incríveis.</p>
         </div>
-        <img src="/Assets/images/Eu.jpg" alt="">
-        
-    </main>
-    <div class="about">
+        <img src="/Assets/images/Eu.jpg" class="hero-img" alt="Minha Foto">
+    </section>
+
+    <section id="sobre" class="sobre">
         <h2>Sobre mim</h2>
-        <p>Sou luiz miguel estudante de desenvolvimento de sistemas do Senai suiço-brasileiro estudante da terceira serie do ensino médio </p>
-        
-         <div class="icons">
-             <a href="#"><img src="/Assets/icons/WhatsApp.svg" alt="WhatsApp"></a>
-             <a href="#"><img src="/Assets/icons/Instagram.svg" alt="Instagram"></a>
-             <a href="#"><img src="/Assets/icons/Gmail.svg" alt="Gmail"></a>
-             <a href="#"><img src="/Assets/icons/Github.svg" alt="Github"></a>
-         </div>
-    </div>
+        <p>Sou Luiz Miguel, Estudante de desnvolvimento de sistemas focado em HTML, CSS e Java. Busco sempre aprender mais e evoluir meus projetos com novas tecnologias.</p>
+    </section>
 
-<div class="skills-section">
-    <h2>My Skills</h2>
+    <section id="projetos" class="projetos">
+        <h2>Projetos</h2>
 
-    <div class="my-skills">
-        <div class="skill">
-            <h3>30%</h3>
-            <p>JAVA</p>
+        <div class="projetos-grid">
+
+            <div class="card">
+                <img src="/Assets/images/spring-boot.png" alt="Projeto 1">
+                <h3>Projeto 1</h3>
+                <p>Ptojeto com spring-boot.</p>
+                <a href="https://github.com/Luizmiguel1784/Atividade-Login" target="_blank">Ver projeto</a>
+            </div>
+
+            <div class="card">
+                <img src="/Assets/images/Tela_de_login.png" alt="Projeto 2">
+                <h3>Projeto 2</h3>
+                <p>Tela de login feita em aula.</p>
+                <a href="https://github.com/Luizmiguel1784/auth-pages" target="_blank">Ver projeto</a>
+            </div>
+
+            <div class="card">
+                <img src="/Assets/images/LifeBloom.png" alt="Projeto 3">
+                <h3>Projeto 3</h3>
+                <p>Protótipo baseado no layout do Figma, recriado em HTML e CSS.</p>
+                <a href="https://github.com/Lifebloom-senai/LIFEBLOOM-FRONTEND/tree/professionals-page" target="_blank">Ver projeto</a>
+            </div>
+
         </div>
-        <div class="skill">
-            <h3>20%</h3>
-            <p>HTML</p>
-        </div>
-        <div class="skill">
-            <h3>20%</h3>
-            <p>CSS</p>
-        </div>
-        <div class="skill">
-            <h3>10%</h3>
-            <p>JAVASCRIPT</p>
-        </div>
-    </div>
-</div>
+    </section>
+
+    <section id="contato" class="contato">
+        <h2>Contato</h2>
+        <p>Email: <strong>santosalmeidaluizmiguel28@gmail.com</strong></p>
+        <p>Instagram: <a href="https://www.instagram.com/miguel_198.4/" target="_blank">@miguel_198.4</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 — Desenvolvido por Luiz Miguel</p>
+    </footer>
 
 </body>
 </html>
