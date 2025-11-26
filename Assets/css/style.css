@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: var(--Background-color);
+    border: none;
+}
+.Container{
+    
+    background-color: var(--Background-color);
+    height: 50px;
+    
+}
+.Container > a{
+    
+    color: white;
+}
+.Container{
+    display: flex;
+    align-items: end;
+    color: white;
+    
+}
+.Container > a{
+    display: flex;
+    align-items: end;
+    color: white;
+    padding-left: 30px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Section-Home{
+   
+    padding-bottom: 300px;
+    padding-right: 300px;
+    padding-left: 100px;
+    padding-top: 340px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+main>img{
+    display: flex;
+    justify-content: center;
+      clip-path: ellipse(50% 50% at 50% 50%);
+      width: 400px;
+      height: 475px;
+      margin-top: 50px;  
+      margin-left: 20px;  
+      margin-right: 40px;
+    
+}
+
+h1{
+
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: flex-start;
+}
+h3{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-right: 770px;
+
+}
+:root{
+    
+    
+        --Background-color:#171717;
+        --second-color: #212121;
+        --button-color:#27AE60;
+}
+p{
+
+    font-family: ;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+main{
+    display: flex;
+    justify-content: end;
+
+}
+
+.about{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    }
+h2{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}    
+.icons{
+
+    display: flex;
+    align-items: center;
+    width: 62px;
+    
+}
+.icons>a{
+
+    width: 62px;
+    height: 62px;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.icons img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.icons img:hover {
+    transform: scale(1.1);
+}
+.skills-section {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.skills-section h2 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+
+.my-skills {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 20px 0;
+    background: transparent; 
+}
+
+
+.skill {
+    text-align: center;
+    width: 120px;
+    background: transparent; 
+}
+
+.skill h3 {
+    font-size: 32px;
+    color: #cfcfcf;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.skill p {
+    font-size: 14px;
+    color: #2ecc71;
+    font-weight: 600;
+}
