@@ -112,6 +112,8 @@ header {
 .card img {
     width: 100%;
     border-radius: 10px;
+    height: 170px;
+    width: 330px;
 }
 
 .card h3 {
